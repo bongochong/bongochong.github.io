@@ -31,7 +31,7 @@ function isSiteOnline(url,callback) {
         callback(false);
     }
 
-    img.src = url+"/history.png";
+    img.src = url+"history.png";
 }
 </script>
 </head>
@@ -67,7 +67,7 @@ Where you will also find info about what's streaming now, along with the upcomin
 <h6>Don't forget to wash your hands after using the<br>toilet, and remember to drink water every day!</h6>
 </center>
 <script>
-isSiteOnline("http://www.fasciculation.world/images",function(found){
+isSiteOnline("http://testing.fasciculation.world",function(found){
     if(found) {
 		var x = document.createElement("IMG");
 		x.setAttribute("src", "seo-panda-icon-up.png");
