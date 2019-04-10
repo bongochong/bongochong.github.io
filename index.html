@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 <meta charset="utf-8">
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <title>BiscoRadio ReBorn</title>
 <style>
-body{font-family:'Verdana','Arial',sans-serif;font-size:12pt;}
+body{font-family:'Verdana','Arial',sans-serif;font-size:12pt;margin-left:16%;margin-right:16%;}
 h6{font-weight:normal;font-size:9pt;text-align:right;}
 table{font-size:12pt;}
-th{text-align:right;padding-right:12px;}
-caption{font-style:italic;text-align:left;font-size:10pt;}
+caption{font-style:italic;text-align:right;font-size:9pt;}
 div.motd{margin-top:10px;}
 #starter{text-align:center;font-size:18pt;}
 #joiner{font-style:italic;text-align:center;font-size:10pt;}
@@ -31,7 +31,7 @@ function isSiteOnline(url,callback) {
         callback(false);
     }
 
-    img.src = url+"history.png";
+    img.src = url;
 }
 </script>
 </head>
@@ -40,34 +40,24 @@ function isSiteOnline(url,callback) {
 <div id="joiner" align="center">Your Home for Non-Stop Streaming Disco Biscuits</div>
 <div id="breaker" align="center"><hr width=63% align=center color="#009B4E"></div>
 <center>
-If you see a red panda, it is bad, as it means that BiscoRadio ReBorn is down.<br><br>
-If you see the green panda, then you are in luck my friend, because the BiscoRadio ReBorn stream is up and ready for your ears!<br><br>
-You can tune in via Winamp, iTunes, VLC, or any media player at all really.<br>
-Just click on one of the buttons below to enter your own private biscohole:<br><br>
+If you see the red panda, it is bad news, as it means that BiscoRadio ReBorn is down. If you see the green panda, then you are in luck my friend, because the BiscoRadio ReBorn stream is up and ready for your ears! You can tune in via Winamp, iTunes, VLC, or any media player at all really. Just click on one of the buttons below to enter your own private biscohole:<br><br>
 <table class="tg">
 <col width="184">
 <col width="184">
-<col width="184">
-<col width="184">
   <tr>
-    <th class="tg-c3ow"><center><u>WinAmp</u></center><br>
+    <th class="tg-c3ow"><center><u>WinAmp or VLC</u></center><br>
 	<center><a href="http://fasciculation.world/listen.pls?sid=1"><img src="winamp-icon.png" alt="Winamp"></a></center></th>
-    <th class="tg-0lax"><center><u>iTunes</u></center><br>
-	<center><a href="http://fasciculation.world/listen.m3u?sid=1"><img src="tunes-icon.png" alt="iTunes"></a></center></th>
-    <th class="tg-0lax"><center><u>VLC</u></center><br>
-	<center><a href="http://fasciculation.world/listen.m3u?sid=1"><img src="vlc-icon.png" alt="VLC"></a></center></th>
-    <th class="tg-0lax"><center><u>Any Player</u></center>
-	<br><center><a href="http://fasciculation.world/listen.m3u?sid=1"><img src="any-icon.png" alt="Any Player"></a></center></th>
+    <th class="tg-0lax"><center><u>Anything Else</u></center><br>
+	<center><a href="http://fasciculation.world/listen.m3u?sid=1"><img src="any-icon.png" alt="Anything Else"></a></center></th>
   </tr>
 </table><br>
-If the link just downloads a playlist instead of launching your preferred player, just open it in that application.<br>
 Or, if that's all too much, you can just <a href="http://fasciculation.world/?type=http">LISTEN IN YOUR BROWSER</a>.<br><br>
-For the curious listener, you can check the status of the stream at: <a href="http://status.fasciculation.world">http://status.fasciculation.world</a><br>
-Where you will also find info about what's streaming now, along with the upcoming playlist.<br><br><br>
-<h6>Don't forget to wash your hands after using the<br>toilet, and remember to drink water every day!</h6>
+For the curious listener, you can check the status of the stream at: <a href="http://status.fasciculation.world">http://status.fasciculation.world</a><br>Where you will also find info about what's to come.<br><br><br>
+<h6>Don't forget to wash your hands after using the toilet, and remember to drink water every day!</h6>
+<a href="https://winamp.com"><img src="winamp-miniban.gif" align="right" alt="Powered by Winamp"></a>
 </center>
 <script>
-isSiteOnline("http://testing.fasciculation.world",function(found){
+isSiteOnline("http://icons.fasciculation.world",function(found){
     if(found) {
 		var x = document.createElement("IMG");
 		x.setAttribute("src", "seo-panda-icon-up.png");
