@@ -25,7 +25,7 @@ div.motd{margin-top:10px;}
 function isSiteOnline(url,callback) {
     var timer = setTimeout(function(){
         callback(false);
-    },4200)
+    },3600)
 
     var img = document.createElement("img");
     img.onload = function() {
@@ -81,7 +81,7 @@ isSiteOnline("http://icons.fasciculation.world",function(found){
 		y.setAttribute("height", "80");
 		y.setAttribute("alt", "The stream is down!");
 		document.getElementById('starter').appendChild(y);
-		document.getElementById('breaker').innerHTML += '<center>If you see the red panda, it is bad news, as it means that <u>BiscoRadio ReBorn is down</u>. This might be because of server maintenance, a vacation, or some idiot spilling beer on my router. Will be back up soon. Jahbless.</center><br>';
+		document.getElementById('breaker').innerHTML += "<center>If you see the red panda, it is bad news: <u>BiscoRadio ReBorn is down</u>. This might be because of server maintenance, a vacation, or some idiot spilling beer on my router. Will be back up soon. Jahbless.</center><br>";
     }
 })
 </script>
