@@ -25,7 +25,7 @@ div.motd{margin-top:10px;}
 function isSiteOnline(url,callback) {
     var timer = setTimeout(function(){
         callback(false);
-    },1500)
+    },2700)
 
     var img = document.createElement("img");
     img.onload = function() {
@@ -52,9 +52,9 @@ If you see the green panda, then you are in luck my friend, because the BiscoRad
 <col width="184">
 <col width="184">
   <tr>
-    <th class="tg-c3ow"><center><u>WinAmp or VLC</u></center><br>
+    <th class="tg-c3ow"><center><b>WinAmp or VLC</b></center><br>
 	<center><a href="http://fasciculation.world/listen.pls?sid=1"><img src="winamp-icon.png" alt="Winamp"></a></center></th>
-    <th class="tg-0lax"><center><u>Anything Else</u></center><br>
+    <th class="tg-0lax"><center><b>Anything Else</b></center><br>
 	<center><a href="http://fasciculation.world/listen.m3u?sid=1"><img src="any-icon.png" alt="Anything Else"></a></center></th>
   </tr>
 </table><br>
@@ -73,11 +73,6 @@ isSiteOnline("http://icons.fasciculation.world",function(found){
 		x.setAttribute("height", "80");
 		x.setAttribute("alt", "The stream is up!");
 		document.getElementById('starter').appendChild(x);
-		setTimeout(function(){ 
-		window.stop();
-		document.execCommand("Stop");
-		return;
-		}, 0500);
     }
     else {
 		var y = document.createElement("IMG");
@@ -86,12 +81,7 @@ isSiteOnline("http://icons.fasciculation.world",function(found){
 		y.setAttribute("height", "80");
 		y.setAttribute("alt", "The stream is down!");
 		document.getElementById('starter').appendChild(y);
-		document.getElementById('breaker').innerHTML += "<center>If you see the red panda, it is bad news: <u>BiscoRadio ReBorn is down</u>, but will be back up next week! Please ignore everything below this line until then. Jahbless.</center><br>";
-		setTimeout(function(){ 
-		window.stop();
-		document.execCommand("Stop");
-		return;
-		}, 0500);
+		document.getElementById('breaker').innerHTML += "<center>If you see the red panda, it is bad news: <b>BiscoRadio ReBorn is down</b>, but will be back up next week! Please ignore everything below this line until then. Jahbless.</center><br>";
     }
 })
 </script>
