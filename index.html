@@ -25,7 +25,7 @@ div.motd{margin-top:10px;}
 function isSiteOnline(url,callback) {
     var timer = setTimeout(function(){
         callback(false);
-    },2100)
+    }, 2100)
 
     var img = document.createElement("img");
     img.onload = function() {
@@ -84,7 +84,7 @@ isSiteOnline("http://icons.fasciculation.world",function(found){
 			setTimeout(function(){ 
 			window.stop();
 			document.execCommand("Stop");
-			}, 600);
+			}, 2100);
 		}
 	}		)
 </script>
