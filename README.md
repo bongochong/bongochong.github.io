@@ -1,2 +1,2 @@
 # bongochong.github.io
-A landing page for CPBL & CWPU
+A relatively ugly landing page for CPBL & CWPU
