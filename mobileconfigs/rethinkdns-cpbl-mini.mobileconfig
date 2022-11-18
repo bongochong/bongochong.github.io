@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
         <key>PayloadDisplayName</key>
-        <string>RethinkDNS+</string>
+        <string>CPBL Light RethinkDNS+</string>
         <key>PayloadOrganization</key>
         <string>RethinkDNS.com</string>
         <key>PayloadDescription</key>
