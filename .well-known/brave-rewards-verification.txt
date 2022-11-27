@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: bongochong.github.io
-Token: db4b82b4cdd9d0b1501f7d6ddd61ff432f32014c595462c47841f916c06c86e6
