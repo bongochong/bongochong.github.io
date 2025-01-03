@@ -32,7 +32,7 @@ https://rethinkdns.com/configure?v=apple#1:IAABAA==</string>
                     <key>DNSProtocol</key>
                     <string>HTTPS</string>
                     <key>ServerURL</key>
-                    <string>https://sky.rethinkdns.com/1:IAABAA==</string>
+                    <string>https://max.rethinkdns.com/1:IAABAA==</string>
                 </dict>
                 <key>PayloadType</key>
                 <string>com.apple.dnsSettings.managed</string>
